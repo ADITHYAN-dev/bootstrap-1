@@ -1,1 +1,218 @@
-ergdfh
+/* Global styles */
+* {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar styles */
+
+.tog-color{
+    background-color: #0A0B27 !important;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.navbar{
+   height: 70px;
+}
+
+.dropdown-menu {
+    background-color: #E53F27;
+}
+
+.dropdown-item {
+    color: white;
+    background-color: #E53F27 !important;
+}
+
+.dropdown-item:hover {
+    color: black;
+}
+
+.nav-link:hover {
+    color: #E53F27 !important;
+}
+
+.nav-color {
+    background-color: #0A0B27 !important; 
+}
+
+.nav-content {
+    color: white !important;
+}
+
+.tog-color {
+    background-color: #0A0B27 !important;
+}
+
+.nav-logo {
+    height: 27px;
+    width: 119px;
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+}
+
+/* Specific section styles */
+.my-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 190px;
+    height: 530px;
+}
+
+.div-1, .div-2 {
+    padding: 0;
+    margin: 0;
+    width: 50%;
+    height: 100vh; /* Adjust height as needed */
+}
+
+.div-1 {
+    background-color: #96D51A !important;
+}
+
+.div-2 {
+    background-color: white !important;
+}
+
+.div-1-text {
+    top: 50%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 80px;
+    font-weight: 800;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+
+.div-2-text-1 {
+    text-align: left;
+    padding-left: 60px !important;
+    top: 50%;
+    color: #E53F27;
+    font-size: 40px;
+    padding: 10px;
+    font-size: 3vw;
+}
+
+.top-one{
+    padding-top: 190px !important;
+}
+
+.div-2-text-2{
+    text-align: left;
+    display: block;
+    color: #E53F27;
+    font-size: 1.5vw;
+    padding: 0px;
+    padding-left: 120px;
+
+}
+.grp-div{
+    padding: 0px !important;
+}
+
+.fs-2 {
+    /* CSS properties */
+    font-size: 1.5rem; 
+    line-height: 1.6; 
+    color: #E53F27;
+    padding-left: 20px;
+}
+
+.fs-1{
+    color: #E53F27;
+    display: flex;
+    text-align: center;
+}
+
+.h1-center {
+    padding-top: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Remove the background color from the toggler icon */
+.navbar-toggler-icon {
+    background-image: none;
+}
+
+/* Set the background color for the toggler button */
+.tog-color {
+    background-color: #0A0B27 !important;
+}
+
+
+.fs-1 {
+    color: #E53F27;
+    text-align: center;
+}
+
+.fs-2 {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    color: #E53F27;
+    padding-left: 20px;
+}
+
+.h1-center {
+    padding-top: 50px; /* Adjust padding as needed */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Adjusting the navbar items to prevent overflow */
+.navbar-nav .nav-item {
+    margin-left: 1rem;
+}
+
+/* Custom CSS to handle navbar overflow */
+@media (max-width: 992px) {
+    .navbar-nav {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+    .navbar-nav .nav-item {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+}
+
+footer {
+    background-color: #f8f9fa; /* Light background color */
+    padding: 20px 0; /* Vertical padding */
+    border-top: 1px solid #dee2e6; /* Light border for separation */
+}
+
+.footer-column {
+    margin-bottom: 20px;
+}
+
+.footer-column p {
+    margin: 0;
+}
+
+.footer-social-icons svg {
+    margin: 0 10px;
+}
+
+@media (min-width: 768px) {
+    .footer-text {
+        margin-bottom: 0;
+    }
+}
